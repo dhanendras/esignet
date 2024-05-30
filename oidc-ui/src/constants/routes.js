@@ -7,11 +7,11 @@ export const AUTHCODE = "/authorization/auth-code";
 export const CSRF = "/csrf/token";
 
 // Config endpoint
-export const CONFIG = "/theme/config.json";
+export const CONFIG = "/ui/theme/config.json";
 
 // Language endpoint
-export const DEFAULT_CONFIG = "/locales/default.json";
-export const ENG_CONFIG = "/locales/en.json";
+export const DEFAULT_CONFIG = "/ui/locales/default.json";
+export const ENG_CONFIG = "/ui/locales/en.json";
 
 // Link authorization endpoint
 export const LINK_CODE_GENERATE = "/linked-authorization/link-code";
@@ -24,9 +24,9 @@ export const INFO = "/info";
 export const CAPTURE = "/capture";
 
 // Route endpoint
-export const SOMETHING_WENT_WRONG = "/something-went-wrong";
-export const PAGE_NOT_FOUND = "/page-not-found"
-export const LOGIN = "/login";
-export const AUTHORIZE = "/authorize";
-export const CONSENT = "/consent";
+export const SOMETHING_WENT_WRONG = "/ui/something-went-wrong";
+export const PAGE_NOT_FOUND = "/ui/page-not-found"
+export const LOGIN = "/ui/login";
+export const AUTHORIZE = "/ui/authorize";
+export const CONSENT = "/ui/consent";
 export const ESIGNET_DETAIL = "/";

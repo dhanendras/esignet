@@ -2,10 +2,10 @@ import axios from "axios";
 
 import { SOMETHING_WENT_WRONG } from "../constants/routes";
 
-const API_BASE_URL =
-  process.env.NODE_ENV === "development"
-    ? process.env.REACT_APP_ESIGNET_API_URL
-    : window.origin + process.env.REACT_APP_ESIGNET_API_URL;
+const API_BASE_URL = process.env.REACT_APP_ESIGNET_API_URL
+// process.env.NODE_ENV === "development"
+//   ? process.env.REACT_APP_ESIGNET_API_URL
+//   : window.origin + process.env.REACT_APP_ESIGNET_API_URL;
 
 export class HttpError extends Error {
   code;
@@ -37,7 +37,7 @@ export const setupResponseInterceptor = (navigate) => {
         error.response?.status &&
         allErrorStatusCodes.includes(state.code)
       ) {
-          navigate(SOMETHING_WENT_WRONG, { state });
+        navigate(SOMETHING_WENT_WRONG, { state });
       } else {
         return Promise.reject(error);
       }
