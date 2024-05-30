@@ -27,6 +27,6 @@ export const CAPTURE = "/capture";
 export const SOMETHING_WENT_WRONG = "/ui/something-went-wrong";
 export const PAGE_NOT_FOUND = "/ui/page-not-found"
 export const LOGIN = "/ui/login";
-export const AUTHORIZE = "/ui/authorize";
+export const AUTHORIZE = "/authorize";
 export const CONSENT = "/ui/consent";
 export const ESIGNET_DETAIL = "/";
