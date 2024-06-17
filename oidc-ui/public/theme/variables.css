@@ -4,14 +4,14 @@
   --login-card-box-hover-color: #1263ca;
   --login-card-box-focus-color: #1263ca;
   --login-background: #fcfcff;
-  --login-background-image: url("/images/section-bg.png");
+  --login-background-image: url("/ui/images/section-bg.png");
   --login-background-min-height: calc(100vh - 157.6px) !important;
   --language-icon-color: #ffffff;
   --language-icon-bg-color: #004282;
-  --brand-only-logo-url: url("/logo.png");
-  --brand-logo-url: url("/images/brand_logo.png");
-  --background-logo-url: url("/images/illustration_one.png");
-  --footer-brand-logo-url: url("/images/footer_logo.png");
+  --brand-only-logo-url: url("/ui/logo.png");
+  --brand-logo-url: url("/ui/images/brand_logo.png");
+  --background-logo-url: url("/ui/images/illustration_one.png");
+  --footer-brand-logo-url: url("/ui/images/footer_logo.png");
   --primary-button-color: #ffffff;
   --primary-button-bg-color: #004282;
   --primary-button-border-color: #004282;
@@ -57,13 +57,13 @@
   --multipurpose-login-card-border-radius: 20px;
   --multipurpose-login-card-background-color: #ffffff;
   --side-section-bg-with: 226px;
-  --top-left-bg-logo-url: url("/images/top_left_bg_logo.svg");
+  --top-left-bg-logo-url: url("/ui/images/top_left_bg_logo.svg");
   --top-left-bg-logo-display: none;
-  --bottom-left-bg-logo-url: url("/images/bg_bottom_left.png");
+  --bottom-left-bg-logo-url: url("/ui/images/bg_bottom_left.png");
   --bottom-left-bg-logo-display: block;
-  --top-right-bg-logo-url: url("/images/top_left_bg_logo.svg");
+  --top-right-bg-logo-url: url("/ui/images/top_left_bg_logo.svg");
   --top-right-bg-logo-display: none;
-  --bottom-right-bg-logo-url: url("/images/bottom_right_bg_logo.svg");
+  --bottom-right-bg-logo-url: url("/ui/images/bottom_right_bg_logo.svg");
   --bottom-right-bg-logo-display: none;
   --login-client-logo-image-height: 5rem;
   --login-client-logo-image-width: 8rem;
@@ -93,10 +93,10 @@
   --login-background: #f7f9fd;
   --language-icon-color: #ffffff;
   --language-icon-bg-color: #eb6f2d;
-  --brand-only-logo-url: url("/logo.png");
-  --brand-logo-url: url("/images/brand_logo.png");
-  --background-logo-url: url("/images/illustration_one.png");
-  --footer-brand-logo-url: url("/images/footer_logo.png");
+  --brand-only-logo-url: url("/ui/logo.png");
+  --brand-logo-url: url("/ui/images/brand_logo.png");
+  --background-logo-url: url("/ui/images/illustration_one.png");
+  --footer-brand-logo-url: url("/ui/images/footer_logo.png");
   --primary-button-color: #ffffff;
   --primary-button-bg-color: #eb6f2d;
   --primary-button-border-color: #eb6f2d;
@@ -141,18 +141,16 @@
   --signup-banner-signup-url-color-focus: #eb6f2d;
   --multipurpose-login-card-border-radius: 10px;
   --multipurpose-login-card-background-color: #ffffff;
-  --top-left-bg-logo-url: url("/images/top_left_bg_logo.svg");
-  --bottom-right-bg-logo-url: url("/images/bottom_right_bg_logo.svg");
+  --top-left-bg-logo-url: url("/ui/images/top_left_bg_logo.svg");
+  --bottom-right-bg-logo-url: url("/ui/images/bottom_right_bg_logo.svg");
   --login-client-logo-image-height: 2.75rem;
   --login-client-logo-image-width: 2.75rem;
   --login-alternate-arrow: "\21C4";
   --login-alternate-arrow-size: 1.5rem;
   --login-text-color: #333333;
-  --login-card-separator: linear-gradient(
-    0deg,
-    rgb(0, 0, 0, 0.2) 0%,
-    rgb(0, 0, 0, 0.2) 100%
-  );
+  --login-card-separator: linear-gradient(0deg,
+      rgb(0, 0, 0, 0.2) 0%,
+      rgb(0, 0, 0, 0.2) 100%);
   --login-card-separator-height: 1px;
   --footer-text-color: #898989;
   --footer-text-size: 14px;
