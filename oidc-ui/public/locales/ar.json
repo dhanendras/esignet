@@ -88,7 +88,11 @@
     "dob": "ادخل تاريخ الميلاد",
     "policyNumber_placeholder": "رقم الوثيقة",
     "fullName_placeholder": "الاسم",
-    "dob_placeholder": "تاريخ الميلاد"
+    "dob_placeholder": "تاريخ الميلاد",
+    "enrollmentNumber": "أدخل رقم القيد",
+    "enrollmentNumber_placeholder": "عدد المسجلين",
+    "studentName": "أدخل اسم الطالب",
+    "studentName_placeholder": "أسم الطالب"
   },
   "LoginQRCode": {
     "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",
@@ -295,8 +299,8 @@
     "captcha_validator_not_found": "فشل في العثور على مثيل Captcha Valitator ، يرجى التحقق من ClassPath.",
     "invalid_captcha": "وجدت captcha غير صالحة.",
     "invalid_auth_factor_type_or_challenge_format": "نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
-    "invalid_auth_factor_type_format" :"نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
-    "invalid_challenge_length" : "اعتراض غير صالح ، تم انتهاك قيد الحد الأدنى أو الحد الأقصى للطول.",
+    "invalid_auth_factor_type_format": "نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
+    "invalid_challenge_length": "اعتراض غير صالح ، تم انتهاك قيد الحد الأدنى أو الحد الأقصى للطول.",
     "unsupported_pkce_challenge_method": "طريقة تبادل التحدي الرئيسية إثبات غير مدعوم.",
     "invalid_pkce_challenge": "تحدي مفتاح إثبات غير صالح.",
     "invalid_pkce_code_verifier": "دليل مفتاح إثبات غير صالح.",
